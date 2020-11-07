@@ -493,7 +493,6 @@
 .u-section-3 .u-repeater-1 {
   min-height: 1028px;
   grid-template-columns: 33.3333% 33.3333% 33.3333%;
-  height: auto;
   grid-gap: 0px 0px;
   margin: 94px auto 60px 0;
 }
@@ -674,6 +673,7 @@
 
 @media (max-width: 1199px) {
   .u-section-3 .u-repeater-1 {
+    height: auto;
     margin-right: initial;
     margin-left: initial;
   }
@@ -1511,6 +1511,7 @@
 .u-section-7 .u-text-1 {
   background-image: none;
   width: 415px;
+  font-size: 2.25rem;
   margin: 82px auto 0;
 }
 
@@ -1543,7 +1544,6 @@
 
   .u-section-7 .u-text-1 {
     margin-top: 13px;
-    font-size: 2.25rem;
   }
 
   .u-section-7 .u-social-icons-1 {
